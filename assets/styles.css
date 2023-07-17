@@ -1,0 +1,41 @@
+#nuevatarea {
+  width: 15rem;
+  min-width: 15rem;
+}
+.c1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.c2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#identif {
+  width: 5rem;
+}
+#tareas {
+  width: 25rem;
+}
+.contador {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  min-width: 15rem;
+}
+.contador span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
