@@ -34,7 +34,7 @@ addBtn.addEventListener("click", newTask);
 //nuevo status
 const newStatus = (id) => {
   const index = listaTareas.findIndex((listaTareas) => listaTareas.id === id);
-  if (listaTareas(index).completed == false) {
+  if (listaTareas[index].completed == false) {
     const newItem = {
       id: listaTareas[index].id,
       name: listaTareas[index].name,
